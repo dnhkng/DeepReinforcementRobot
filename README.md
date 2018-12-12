@@ -46,12 +46,13 @@ Follow the code blocks in `Navigation.ipynb` to see how this agent was trained!
 ![results](images/plot.png)
 
 This agent was trained in 387 episodes!
-'''
+```
 Episode 100	Average Score: 0.65
 Episode 200	Average Score: 6.11
 Episode 300	Average Score: 10.25
 Episode 387	Average Score: 13.01
-'''
+```
+
 ## Ideas for future work
 
 1. Extensive hyperparameter optimization
