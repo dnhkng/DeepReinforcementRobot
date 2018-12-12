@@ -43,7 +43,7 @@ Follow the code blocks in `Navigation.ipynb` to see how this agent was trained!
 
 ## Results
 
-![results](images/plot.png)
+![results](chart.png)
 
 This agent was trained in 387 episodes!
 ```
