@@ -11,7 +11,8 @@ The Neural network had the following topography:
 - Fully connected layer - input: 64 output 32
 - Fully connected layer - input: 32 output: 4 (action size)
 
-It used Relu Activation. The Fixed-Q networkk was updated every forth episode.
+It used Relu Activations. The Fixed-Q network was updated every forth episode.
+
 
 For the DQN parameters, I used:
 - Maximum steps per episode: 1000
