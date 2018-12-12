@@ -3,7 +3,12 @@
 
 ## Learning algorithm
 
-The algorithm is a Deep Q-Network, with Experience Replay and Fixed-Q Targets.
+The code implements a Deep Q-Network, with Experience Replay and Fixed-Q Targets.
+
+Q-learning learns the action-value function Q(s, a): how good to take an action at a particular state?
+In Deep Q-learning, a neural network maps the input state to the appropriate action. However, if we tried to learn
+directly, the order of the experiences would effct the learning, so we use Experience Replay to store and randomly update the network.
+To prevent instability, we hold a set of second duplicate set of Q-targets fixed for a certain number of episodes before updating them to match, a technique called Fixed-Q targets.
 
 The Neural network had the following topography:
 - Fully connected layer - input: 37 (state size) output: 128
